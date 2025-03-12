@@ -1,0 +1,27 @@
+NOLIST
+;
+        ORG &4000
+;
+        DEFM"EPSILON  VS...  DRACULA"
+        DEFM" CREATED BY (P)EPSILON "
+        DEFM" (C) POWER SYSTEM 1995 "
+        DEFM"BORDELIK MEETING 4/1995"
+        DEFM"PRESS F0 OR F. TO CHOO-"
+        DEFM"-SE THE AUTO/EQUA MODE."
+        DEFM"PRESS  ENTER  TO  PLAY,"
+        DEFM"THEN THE LEFT/RIGHT AR-"
+        DEFM"-ROWS TO MOVE, AND SPA-"
+        DEFM"-CE BAR TO DESTROY DRA-"
+        DEFM"-COUGNIETTE FROM MORTA-"
+        DEFM"-DEL TEAM (AARRRFFF !)."
+        DEFM"    GOOD SHOOT !!!     "
+        DEFM" MESSAGE FOR DRACULA : "
+        DEFM"YOUR ASS IS NOT CLEAN !"
+        DEFM"       CREDITS :       "
+        DEFM" CODE AND GRAPHICS BY  "
+        DEFM"     (P)EPSIBOULE      "
+        DEFM"     GREAT TUNE BY     "
+        DEFM"   ELIOT AND TARGHAN   "
+        DEFM"  BYE, EPSILONATOR...  "
+        DEFB &FF
+; swapin:call kllromdisab
