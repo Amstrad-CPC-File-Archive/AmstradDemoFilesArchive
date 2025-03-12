@@ -25,7 +25,7 @@ TODO
 TODO
 
 
-## How to launch with an emulator with UNIDOS
+## How to launch with an emulator with UNIDOS (do not still work)
 
 1. Download AceDL <https://roudoudou.com/ACE-DL/>
 2. Select your folder of intest and file to launch :
