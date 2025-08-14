@@ -1,14 +1,0 @@
-1FOR i=0TO 8:READ s$(i):NEXT:DATA "AMSTRAD CPC","- 3' drive belt",Can lead to data loss!,"COMMODORE 64",- 6502 CPU,Reduces system performance,"ZX SPECTRUM","- Color clash",Limits graphics resolution
-2ON ERROR GOTO 9:u=0:DATA "BIT DEFENDER 8",THE ULTIMATE ANTIMALWARE SOLUTION FOR,$,System scan started,,"WARNING - WARNING - WARNING","Problems detected:",$,"",$,"Repair now?",Y,
-3RESTORE 2:d=1000:z$=chr$(0):w$=chr$(26)
-4READ a$:if INSTR(1,a$,"$")<>0 THEN a$=s$(u):u=u+1
-5FOR i=1TO LEN(a$):k$=MID$(a$,i,1):?k$;:SOUND 2,ASC(k$),9,15:NEXT:?:n=30:GOSUB 14:GOTO 4
-6SOUND 2,d,8,15:GOTO 8
-7SOUND 2,d,75,15
-8SOUND 2,d,5,0:RETURN
-9GOSUB 6:GOSUB 6:GOSUB 8:GOSUB 7:GOSUB 7:GOSUB 8:GOSUB 6:GOSUB 6
-10?"Drive A: disc missing":?:?"Retry, Ignore or Cancel?":GOSUB 13:?"";z$;"":ON ERROR GOTO 11:RESUME 3
-11?"ERROR: not enough CPU registers!":GOSUB 13:?"";w$;w$;"";z$;z$;"";z$;w$;w$:ON ERROR GOTO 12:RESUME 3
-12?"Upgrading to Amstrad CPC":GOSUB 13:CALL 0
-13n=300
-14FOR i=0TO n:FRAME:NEXT:RETURN

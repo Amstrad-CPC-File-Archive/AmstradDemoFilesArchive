@@ -25,7 +25,7 @@ TODO
 TODO
 
 
-## How to launch with an emulator with UNIDOS (do not still work)
+## How to launch with an emulator with UNIDOS
 
 1. Download AceDL <https://roudoudou.com/ACE-DL/>
 2. Select your folder of intest and file to launch :
@@ -36,3 +36,7 @@ TODO
     - Select Albireo folder: `LOAD"SD:`
     - Optionnaly, list the files to know which one to launch: `CAT`
     - Launch the file: `RUN"BLOCUS` to launch the `BLOCUS` file
+
+
+
+Alternatively, if you ase `bndbuild`, you can use this command `bndbuild --direct -- emu --albireo SIZECODE run`
